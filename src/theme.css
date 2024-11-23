@@ -1,0 +1,53 @@
+/* Variabel Tema */
+:root {
+  --primary-color: #4dba87; /* Warna utama */
+  --background-color: #1e1e1e; /* Latar belakang gelap */
+  --text-color: #ffffff; /* Warna teks utama */
+  --secondary-color: #36a172; /* Warna hover */
+  --gray-color: #cccccc; /* Warna teks sekunder */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117; /* Background gelap sesuai tema */
+  color: #ffffff; /* Teks putih */
+  height: 100%; /* Pastikan seluruh halaman memiliki tinggi penuh */
+  overflow-x: hidden; /* Hindari scroll horizontal */
+}
+
+/* Styling Umum */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.05); /* Efek zoom */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+}
+
+p {
+  line-height: 1.8;
+  color: var(--gray-color);
+}

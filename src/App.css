@@ -1,0 +1,96 @@
+/* Kontainer Utama */
+.App {
+  text-align: center;
+  background-color: #1e1e1e; /* Background gelap */
+  color: #ffffff; /* Warna teks putih */
+  font-family: 'Inter', sans-serif; /* Font modern */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear; /* Animasi rotasi */
+}
+
+/* Preferensi Animasi */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Header */
+.App-header {
+  background-color: #282c34; /* Latar belakang header */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff; /* Warna teks header */
+}
+
+/* Link */
+.App-link {
+  color: #4dba87; /* Warna utama untuk link */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.App-link:hover {
+  color: #36a172; /* Warna lebih gelap saat hover */
+}
+
+/* Animasi Logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Button Styling */
+button {
+  background-color: #4dba87; /* Warna utama */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #36a172; /* Warna hover */
+  transform: scale(1.05); /* Efek zoom */
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(8px + 2vmin); /* Ukuran font lebih kecil */
+    padding: 20px;
+  }
+
+  .App-logo {
+    height: 30vmin; /* Ukuran logo lebih kecil */
+  }
+
+  button {
+    font-size: 0.9rem; /* Ukuran button lebih kecil */
+    padding: 8px 16px;
+  }
+}

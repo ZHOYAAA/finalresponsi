@@ -1,0 +1,96 @@
+/* Latar Belakang Global */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117; /* Latar belakang gelap */
+  color: #ffffff; /* Teks putih */
+  height: 100%; /* Tinggi penuh */
+  overflow-x: hidden; /* Hindari scroll horizontal */
+}
+
+/* Container Formulir */
+.container {
+  background-color: #161b22; /* Latar belakang formulir */
+  border-radius: 15px; /* Sudut membulat */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7); /* Bayangan untuk menonjolkan */
+  padding: 30px;
+  max-width: 700px; /* Batas lebar */
+  margin: 50px auto; /* Tengahkan secara horizontal dan vertikal */
+}
+
+/* Heading Formulir */
+h1 {
+  color: #4dba87; /* Warna hijau tema */
+  font-weight: bold;
+}
+
+p {
+  color: #b3b3b3; /* Warna teks abu-abu terang */
+}
+
+/* Input dan Textarea */
+.form-control {
+  background-color: #0d1117; /* Latar belakang input */
+  color: #e2e8f0; /* Teks abu-abu terang */
+  border: 1px solid #4dba87; /* Border hijau */
+  border-radius: 10px; /* Sudut melengkung */
+  transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  background-color: #1c252c; /* Warna lebih terang saat fokus */
+  border-color: #4dba87; /* Tetap hijau saat fokus */
+  box-shadow: 0 0 10px rgba(77, 186, 135, 0.8); /* Bayangan fokus */
+}
+
+/* Tombol Kirim */
+.btn-success {
+  background-color: #4dba87; /* Hijau utama */
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.btn-success:hover {
+  background-color: #3a9469; /* Hijau lebih gelap saat hover */
+  transform: translateY(-2px); /* Efek naik */
+}
+
+.btn-success:active {
+  transform: translateY(1px); /* Efek turun saat klik */
+}
+
+/* Validasi Formulir */
+.is-invalid {
+  border-color: #e63946; /* Warna merah untuk error */
+}
+
+.is-invalid:focus {
+  box-shadow: 0 0 10px rgba(230, 57, 70, 0.5); /* Bayangan merah */
+}
+
+.is-valid {
+  border-color: #4dba87; /* Warna hijau untuk validasi sukses */
+}
+
+.is-valid:focus {
+  box-shadow: 0 0 10px rgba(77, 186, 135, 0.8); /* Bayangan hijau */
+}
+
+/* Pesan Error */
+.invalid-feedback {
+  color: #e63946; /* Merah untuk pesan error */
+  font-size: 0.875rem;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .container {
+    margin: 20px; /* Margin lebih kecil untuk layar kecil */
+    padding: 20px; /* Padding lebih kecil */
+  }
+
+  .btn-success {
+    font-size: 1rem; /* Ukuran tombol lebih kecil */
+  }
+}

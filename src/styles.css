@@ -1,0 +1,25 @@
+.custom-navbar {
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-dark {
+  background-color: #2b2b2b;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #555555;
+}

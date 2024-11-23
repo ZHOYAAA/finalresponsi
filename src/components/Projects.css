@@ -1,0 +1,156 @@
+/* Container */
+.projects-container {
+  background-color: #0d1117; /* Dark background */
+  color: #ffffff;
+}
+
+/* Highlight Text */
+.text-highlight {
+  color: #4dba87; /* Themed green color */
+}
+
+/* Project Cards */
+.project-card {
+  background-color: #161b22; /* Slightly lighter dark for card background */
+  color: #b3b3b3;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  height: 100%; /* Ensure all cards have the same height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(77, 186, 135, 0.8); /* Highlight on hover */
+}
+
+/* Card Title */
+.project-card .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4dba87;
+}
+
+/* Card Text */
+.project-card .card-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: auto;
+}
+
+/* Buttons */
+.btn-outline-primary {
+  border-color: #4dba87;
+  color: #4dba87;
+}
+
+.btn-outline-primary:hover {
+  background-color: #4dba87;
+  color: #0d1117;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #0d1117;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .project-card {
+    margin-bottom: 20px;
+  }
+}
+/* Testimonial Section */
+.list-group-item {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.list-group-item:hover {
+  box-shadow: 0 4px 10px rgba(77, 186, 135, 0.8);
+}
+/* Testimonials Container */
+.testimonials-container {
+  background-color: #0d1117;
+  color: #b3b3b3;
+}
+
+/* Highlight Text */
+.text-highlight {
+  color: #4dba87;
+}
+
+/* Card Styling */
+.testimonial-card {
+  background-color: #161b22;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(77, 186, 135, 0.8);
+}
+
+/* Pagination */
+.pagination .page-link {
+  color: #4dba87;
+}
+
+.pagination .page-link:hover {
+  background-color: #4dba87;
+  color: #0d1117;
+}
+.portfolio-container {
+  background-color: #0d1117;
+  color: #ffffff;
+}
+
+/* Highlight Text */
+.text-highlight {
+  color: #4dba87;
+}
+
+/* Project Card */
+.project-card {
+  background-color: #161b22;
+  color: #b3b3b3;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(77, 186, 135, 0.8);
+}
+
+/* Testimonial Card */
+.testimonial-card {
+  background-color: #161b22;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Buttons */
+.btn-outline-primary {
+  border-color: #4dba87;
+  color: #4dba87;
+}
+
+.btn-outline-primary:hover {
+  background-color: #4dba87;
+  color: #0d1117;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #0d1117;
+}
